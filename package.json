@@ -1,0 +1,19 @@
+{
+  "name": "bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist && echo 'Done.'",
+    "dev": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/lodash": "^4.17.15"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
